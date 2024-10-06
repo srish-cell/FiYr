@@ -1,0 +1,5 @@
+flask
+flask-cors
+requests>=2.25.1
+
+
