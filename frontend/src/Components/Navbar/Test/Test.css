@@ -2,11 +2,19 @@
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
+    background-image: url('../../../assets/11.jpg');  /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;  /* Ensure it takes full screen height */
+    color: white;  /* Set text color to white for contrast */
 }
 
 
 .slider{
     overflow: hidden;
+    position: relative;
+    z-index: 2;
 
 }
 .slider ul{
@@ -27,6 +35,7 @@
     border-radius: 10px;
     color:#676767 ;
     line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.1);
 
 }
 .slide img{

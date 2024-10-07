@@ -1,0 +1,90 @@
+.Main{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: #b1a4a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+   
+  
+  }
+  .Main video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Keep the video behind the text */
+    object-fit: cover; /* Makes sure video fills the area */
+    opacity: 0.9;
+  }
+  .Main-text{
+    text-align: center;
+    max-width: 800px;
+    z-index: 2; 
+   
+  }
+  .Main-text h1{
+    font-size:60px ;
+    font-weight: 600;
+  }
+  .Main-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+  }
+  
+  .Content {
+    padding: 50px 20px;
+    background-color: #2A2A2A;
+    color: #ededf0;
+    text-align: center;
+  }
+  
+  .Content section {
+    margin: 50px 0;
+  }
+  
+  .Content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .Content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .Content ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .Content li {
+    margin: 10px 0;
+  }
+  
+  .Content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Content button:hover {
+    background-color: #0056b3;
+  }
+  
